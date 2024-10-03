@@ -16,7 +16,7 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -38,15 +38,16 @@ a {
     color: #404bbf;
 }
 
-.header-address-link {
+.header-address {
+        font-style: normal;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
 
-.header-address-link:hover,
-.header-address-link:focus {
+.header-address:hover,
+.header-address:focus {
     color: #404bbf;
 }
 
@@ -70,10 +71,12 @@ font-weight: 700;
         letter-spacing: 0.04em;
         color: #fff;
         cursor: pointer;
+        background-color: #4d5ae5;
 }
 
-.advantages-hidden-title {
-    display: none;
+.title-order-button:hover,
+.title-order-button:focus {
+    background-color: #404bbf;;
 }
 
 .advantages-titles {
@@ -94,6 +97,10 @@ font-weight: 700;
     background-color: #f4f4fd;
 }
 
+.team-list {
+    background-color: #fff;
+}
+
 .team-title {
     font-weight: 700;
         font-size: 36px;
@@ -101,6 +108,7 @@ font-weight: 700;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .team-name {
@@ -126,6 +134,7 @@ font-weight: 700;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .portfolio-name-title {
@@ -150,7 +159,7 @@ font-weight: 500;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
